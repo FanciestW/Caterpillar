@@ -47,6 +47,22 @@
             }
         },
         {
+            "Key": "0f11accb-b287-4d6a-80d1-324645d92824",
+            "Value": {
+                "id": "1a23b250-7326-4762-9049-8db67bc0ab18",
+                "resourcePath": "datafiles_yy\/min.ttf.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "0f321ff5-75a8-4131-88ce-a5392392ba66",
+            "Value": {
+                "id": "c22a66ce-42f4-45f8-b25a-8d8acdc5ebe9",
+                "resourcePath": "sprites\/caterpillar_body\/caterpillar_body.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "16793997-ec0b-4daf-9f4d-cea24d56129b",
             "Value": {
                 "id": "85bc770f-738d-477c-bad7-8be1479f2bc3",
@@ -63,11 +79,27 @@
             }
         },
         {
+            "Key": "1fd619a4-5fdd-4208-ba32-15187ce128af",
+            "Value": {
+                "id": "d0054511-b317-45cd-a0e0-09a115090f67",
+                "resourcePath": "datafiles_yy\/careless-script.ttf.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "4de78860-47d8-4f61-99b1-32b5d21088bf",
             "Value": {
                 "id": "62c67e86-abb4-4856-a62d-c6c06d4fc9f5",
                 "resourcePath": "views\/4de78860-47d8-4f61-99b1-32b5d21088bf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4fa80e2d-5b92-4747-a6e0-fb676b16707c",
+            "Value": {
+                "id": "06f7bbc4-4e90-4c3f-9a48-0c6db4938f60",
+                "resourcePath": "extensions\/min_font\/min_font.yy",
+                "resourceType": "GMExtension"
             }
         },
         {
@@ -183,6 +215,14 @@
             }
         },
         {
+            "Key": "9c4cbade-8aa9-448f-bb21-577d1412a050",
+            "Value": {
+                "id": "5d8fb013-a713-4b47-8d15-1003afb50116",
+                "resourcePath": "sprites\/caterpillar_head\/caterpillar_head.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a6f8e2b8-9122-46f4-bd07-e27debdf8521",
             "Value": {
                 "id": "27b0917e-7c95-4cc4-aa68-f86976278c52",
@@ -196,6 +236,14 @@
                 "id": "e3afd21b-aab2-4606-9fd8-23ae002dc9b7",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b0dc1693-f979-4f26-8ba0-1566cc1654a2",
+            "Value": {
+                "id": "ad892072-ed09-479d-9983-e6ff608cbf96",
+                "resourcePath": "datafiles_yy\/orthogonal.ttf.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -220,6 +268,14 @@
                 "id": "7f45d178-6b59-4578-8314-629c18485f4d",
                 "resourcePath": "views\/d9acbb6c-b951-45ed-97bf-8c0ce15e3b13.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "db357428-c067-4365-8949-08d2a457f9ab",
+            "Value": {
+                "id": "43147443-d7e1-4ef7-af2f-8c95f694f509",
+                "resourcePath": "datafiles_yy\/submin.ttf.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
