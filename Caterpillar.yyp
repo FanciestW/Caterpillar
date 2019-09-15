@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0b0a9a00-09c3-49f4-bc31-76881e684806",
+            "Value": {
+                "id": "51248a77-fec1-4eb8-a812-e9e13995a974",
+                "resourcePath": "objects\/obj_caterpillar_head\/obj_caterpillar_head.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ca0908a-6893-4453-93f6-14113fe6402f",
             "Value": {
                 "id": "750c76bf-d4f8-4db6-b851-589b20cf78a4",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "6a96809f-48d4-46b8-a88a-49a758568ba8",
+            "Value": {
+                "id": "d01c9d6f-6f81-4a5c-9a87-ec29bfdd7745",
+                "resourcePath": "objects\/obj_lotus\/obj_lotus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6cd9410f-ce49-459b-a376-250642698f7e",
             "Value": {
                 "id": "56cd7b79-efa0-448d-ba3f-57211400ca8b",
@@ -223,6 +239,14 @@
             }
         },
         {
+            "Key": "9f2a2572-36bc-49ea-881d-2cef5aa360cc",
+            "Value": {
+                "id": "28478846-0b9a-485b-a08a-f7ccef2b523b",
+                "resourcePath": "scripts\/flower_move\/flower_move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a6f8e2b8-9122-46f4-bd07-e27debdf8521",
             "Value": {
                 "id": "27b0917e-7c95-4cc4-aa68-f86976278c52",
@@ -287,6 +311,14 @@
             }
         },
         {
+            "Key": "e33b9c19-671d-44ce-9fe2-31fe73a664f9",
+            "Value": {
+                "id": "01c4edd7-ac3b-4e65-99ed-ea7b946a0cea",
+                "resourcePath": "objects\/obj_caterpillar_body\/obj_caterpillar_body.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ebc566bc-7913-42a8-acca-c563a20287dc",
             "Value": {
                 "id": "03231c71-6019-46ce-aba3-918b8fc6e791",
@@ -304,7 +336,7 @@
         }
     ],
     "script_order": [
-        
+        "9f2a2572-36bc-49ea-881d-2cef5aa360cc"
     ],
     "tutorial": ""
 }

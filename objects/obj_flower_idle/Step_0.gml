@@ -22,7 +22,6 @@ for ( var i = 0; i < array_length_1d(movement_inputs); i++){
 var moving = ( point_distance(0,0,move_xinput,move_yinput) > 0 );
 if moving  {
     var move_dir = point_direction(0,0,move_xinput,move_yinput);
-    x += lengthdir_x(move_speed_this_frame, move_dir);
-    y += lengthdir_y(move_speed_this_frame, move_dir);
+    flower_move(move_speed_this_frame,  move_dir);
 }
 
