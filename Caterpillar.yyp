@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "c2cafa1c-b5fd-40fe-9779-2819444f1332",
+            "Value": {
+                "id": "abd69f1b-e69e-48b0-bfd5-75ab13a67c4e",
+                "resourcePath": "sprites\/lotus\/lotus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c35c9044-c988-4c41-adcc-1c713cd63e25",
             "Value": {
                 "id": "96880d39-0ed7-4e45-bcfd-04619cd10426",
