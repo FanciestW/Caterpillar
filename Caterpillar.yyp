@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "7c00641a-8419-4cc2-bf8c-517b4c9a8b03",
+            "Value": {
+                "id": "f8634d1f-c2d8-49b0-8488-ffe0db80e9d0",
+                "resourcePath": "sprites\\honey_bullet\\honey_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "84d246cf-037a-4208-b787-23db4cd234bf",
             "Value": {
                 "id": "2f0eff59-b2fe-4082-997d-5ad3f8426d97",
