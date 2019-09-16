@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_caterpillar_body",
     "eventList": [
-        {
-            "id": "4386e35e-fcf9-469c-b583-7ff110a0c236",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "e33b9c19-671d-44ce-9fe2-31fe73a664f9"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
