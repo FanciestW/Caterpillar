@@ -2,7 +2,7 @@
 {
     "name": "game_room",
     "id": "0ca0908a-6893-4453-93f6-14113fe6402f",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -13,7 +13,7 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances",
+            "name": "game_layer",
             "id": "ce5ecb32-64a3-414d-bf62-7e27b2013c81",
             "depth": 0,
             "grid_x": 32,
