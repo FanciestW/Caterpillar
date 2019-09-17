@@ -1,10 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+image_speed = 0.5;
 move_speed = 300;
 speed_x = 0;
 speed_y = 0;
 
-movement_inputs[0] = ord("D");
-movement_inputs[1] = ord("W");
-movement_inputs[2] = ord("A");
-movement_inputs[3] = ord("S");
+movement_inputs[0] = vk_right;
+movement_inputs[1] = vk_up;
+movement_inputs[2] = vk_left;
+movement_inputs[3] = vk_down;

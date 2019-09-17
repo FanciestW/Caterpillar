@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_caterpillar_body",
     "eventList": [
-        
+        {
+            "id": "b999d0ac-3850-4429-9705-e921be19c78f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "e33b9c19-671d-44ce-9fe2-31fe73a664f9"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -23,7 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
+    "solid": true,
     "spriteId": "0f321ff5-75a8-4131-88ce-a5392392ba66",
     "visible": true
 }
