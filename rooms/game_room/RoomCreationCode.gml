@@ -25,4 +25,4 @@ for(var i = 0; i < n_lotuses; i++) {
 	instance_create_layer(xx, yy, layer_get_id("game_layer"), obj_lotus);
 }
 
-create_caterpillar(12, 496, 16)
+create_caterpillar(12, 496, 16);

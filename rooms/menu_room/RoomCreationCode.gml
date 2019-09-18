@@ -1,6 +1,8 @@
 lotus_percentage = .1;
 num_of_lotuses = 30 * 30 * lotus_percentage;
 
+randomize();
+
 // Generate top 24 rows of lotuses
 var xx, yy;
 for(var i = 0; i < num_of_lotuses; i++) {
@@ -24,3 +26,5 @@ for(var i = 0; i < n_lotuses; i++) {
 	
 	instance_create_layer(xx, yy, layer_get_id("game_layer"), obj_lotus);
 }
+
+create_caterpillar(12, 496, 16);
