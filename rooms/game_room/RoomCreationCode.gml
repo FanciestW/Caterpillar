@@ -1,8 +1,6 @@
 lotus_percentage = .1;
 num_of_lotuses = 30 * 23 * lotus_percentage;
 
-randomize();
-
 // Generate top 24 rows of lotuses
 var xx, yy;
 for(var i = 0; i < num_of_lotuses; i++) {

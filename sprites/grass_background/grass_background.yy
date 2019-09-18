@@ -57,7 +57,7 @@
             "blendMode": 0,
             "isLocked": false,
             "name": "softener",
-            "opacity": 35,
+            "opacity": 18,
             "visible": true
         },
         {

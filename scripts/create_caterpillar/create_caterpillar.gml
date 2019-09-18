@@ -8,11 +8,11 @@ head_dir = head.facing;
 for (var i = 1; i < length; i+=1) {
 	switch (head_dir) {
 		case "L":
-			caterpillar[i] = instance_create_layer(pos_x-32*i, pos_y, layer_get_id("game_layer"), obj_caterpillar_body);
+			caterpillar[i] = instance_create_layer(pos_x+32*i, pos_y, layer_get_id("game_layer"), obj_caterpillar_body);
 			break;
 		
 		case "R": 
-			caterpillar[i] = instance_create_layer(pos_x+32*i, pos_y, layer_get_id("game_layer"), obj_caterpillar_body);
+			caterpillar[i] = instance_create_layer(pos_x-32*i, pos_y, layer_get_id("game_layer"), obj_caterpillar_body);
 			break;
 
 		case "U":

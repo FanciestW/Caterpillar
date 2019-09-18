@@ -6,4 +6,4 @@ isHead = false;
 following = undefined;
 body_num = undefined;
 my_head = undefined;
-move_speed = my_head == undefined ? 300 : my_head.move_speed;
+move_speed = my_head == undefined ? 2 : my_head.move_speed;
