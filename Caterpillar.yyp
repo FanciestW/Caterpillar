@@ -103,10 +103,18 @@
             }
         },
         {
+            "Key": "3e16b16e-3d23-4077-af91-4042b7ba73a1",
+            "Value": {
+                "id": "ed5acd1b-0537-4a8e-b2b5-e16b1e973144",
+                "resourcePath": "scripts\/create_caterpillar\/create_caterpillar.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "47d5822a-4b9f-419f-9a1f-212e8738deaa",
             "Value": {
                 "id": "454118c6-d8f5-48cf-853d-47d56fc18f4f",
-                "resourcePath": "objects\\obj_menu\\obj_menu.yy",
+                "resourcePath": "objects\/obj_menu\/obj_menu.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -210,7 +218,7 @@
             "Key": "7c00641a-8419-4cc2-bf8c-517b4c9a8b03",
             "Value": {
                 "id": "f8634d1f-c2d8-49b0-8488-ffe0db80e9d0",
-                "resourcePath": "sprites\\honey_bullet\\honey_bullet.yy",
+                "resourcePath": "sprites\/honey_bullet\/honey_bullet.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -360,7 +368,8 @@
         }
     ],
     "script_order": [
-        "9f2a2572-36bc-49ea-881d-2cef5aa360cc"
+        "9f2a2572-36bc-49ea-881d-2cef5aa360cc",
+        "3e16b16e-3d23-4077-af91-4042b7ba73a1"
     ],
     "tutorial": ""
 }
