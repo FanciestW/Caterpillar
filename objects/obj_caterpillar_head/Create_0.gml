@@ -7,7 +7,7 @@ move_speed = 3;
 move_xdir = irandom(1) == 0 ? -1 : 1; // Random move direction to start with.
 move_ydir = 1;	// 1 going down, -1 going up.
 reached_bottom = false;
-speed = move_speed * move_xdir;
+hspeed = move_speed * move_xdir;
 
 facing = move_xdir > 0 ? "R" : "L";
 

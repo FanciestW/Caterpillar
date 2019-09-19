@@ -6,4 +6,12 @@ isHead = false;
 following = undefined;
 body_num = undefined;
 my_head = undefined;
-move_speed = my_head == undefined ? 2 : my_head.move_speed;
+reached_bottom = false;
+
+move_speed = my_head == undefined ? 3 : my_head.move_speed;
+move_xdir = my_head == undefined ? -1 : my_head.move_xdir;
+move_ydir = my_head == undefined ? 1 : my_head.move_ydir;
+
+
+facing = move_xdir > 0 ? "R" : "L";
+hspeed = move_speed * move_xdir;

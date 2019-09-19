@@ -2,7 +2,9 @@
 // You can write your code in this editor
 
 
-// Move in the direction;
+// Check if its time to turn;
+
+// Move in the direction and update facing;
 if (move_xdir > 0) {
 	facing = "R";
 } else {
@@ -21,21 +23,21 @@ if (y >= room_height - 32) {
 // Move left and right and check if hitting lotuses.
 if (x <= 0) {
 	move_xdir *= -1;
-	speed = move_xdir * move_speed;
+	hspeed = move_xdir * move_speed;
 	x = 1;
 	y += (32 * move_ydir);
 } else if (x >= room_width) {
 	move_xdir *= -1;
-	speed = move_xdir * move_speed;
+	hspeed = move_xdir * move_speed;
 	x = room_width - 1;
 	y += (32 * move_ydir);
 } else if (!place_free(x, y)) {
 	move_xdir *= -1;
-	speed = move_xdir * move_speed;
+	hspeed = move_xdir * move_speed;
 	y += (32 * move_ydir);
 }
 
-
+// Handling what way the to face
 switch (facing) {
 	case "U":
 		image_angle = move_xdir < 0 ? 270 : 90;
