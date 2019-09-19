@@ -26,4 +26,9 @@ for (var i = 1; i < length; i+=1) {
 	caterpillar[i].following = caterpillar[i-1];
 	caterpillar[i].body_num = i;
 	caterpillar[i].my_head = caterpillar[0];
+	caterpillar[i].facing = caterpillar[0].facing;
+	caterpillar[i].move_xdir = caterpillar[0].move_xdir;
+	caterpillar[i].move_ydir = caterpillar[0].move_ydir;
+	caterpillar[i].move_speed = caterpillar[0].move_speed;
+	caterpillar[i].hspeed = caterpillar[i].move_speed * caterpillar[i].move_xdir;
 }

@@ -13,5 +13,5 @@ move_xdir = my_head == undefined ? -1 : my_head.move_xdir;
 move_ydir = my_head == undefined ? 1 : my_head.move_ydir;
 
 
-facing = move_xdir > 0 ? "R" : "L";
+facing = "L";
 hspeed = move_speed * move_xdir;
