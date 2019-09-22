@@ -7,7 +7,7 @@ var move_speed_this_frame = move_speed * seconds_passed;
 var move_xinput = 0;
 var move_yinput = 0;
 
-x=clamp(x,sprite_width,room_width-sprite_width);
+x=clamp(x,0,room_width-sprite_width);
 y=clamp(y,32*24,room_height-sprite_height);
  
 for ( var i = 0; i < array_length_1d(movement_inputs); i++){
