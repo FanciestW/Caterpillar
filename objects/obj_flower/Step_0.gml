@@ -10,6 +10,12 @@ switch(state) {
 		break;
 	case 2:  // Dying
 		sprite_index = spr_flower_dying;
+		image_speed = 2;
+		image_xscale = 1;
+		image_yscale = 1;
+		if (image_index >= 13) {
+			instance_destroy();
+		}
 		break;
 }
 
