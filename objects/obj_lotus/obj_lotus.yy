@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "obj_lotus",
     "eventList": [
-        
+        {
+            "id": "1570d7dc-05f3-47cc-a7bf-8bc9075706cc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "6a96809f-48d4-46b8-a88a-49a758568ba8"
+        },
+        {
+            "id": "bd0f78c5-9264-459f-ab16-59cf9fd27869",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "fc7ce16b-639c-4062-bbe3-527b1db9a2ef",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "6a96809f-48d4-46b8-a88a-49a758568ba8"
+        },
+        {
+            "id": "24559f09-cc7d-40a4-9df6-bb8cc6cdb44e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "6a96809f-48d4-46b8-a88a-49a758568ba8"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
