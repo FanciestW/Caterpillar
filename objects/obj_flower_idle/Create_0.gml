@@ -2,6 +2,7 @@
 // You can write your code in this editor
 image_speed = 0.5;
 move_speed = 300;
+ammo_left = 5;
 
 movement_inputs[0] = vk_right;
 movement_inputs[1] = vk_up;
