@@ -365,6 +365,14 @@
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "fc7ce16b-639c-4062-bbe3-527b1db9a2ef",
+            "Value": {
+                "id": "d8a878c3-a871-4ee0-9576-1a60eecde8f5",
+                "resourcePath": "objects\\obj_honey\\obj_honey.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
