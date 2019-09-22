@@ -66,7 +66,7 @@
             "Key": "0f321ff5-75a8-4131-88ce-a5392392ba66",
             "Value": {
                 "id": "c22a66ce-42f4-45f8-b25a-8d8acdc5ebe9",
-                "resourcePath": "sprites\/caterpillar_body\/caterpillar_body.yy",
+                "resourcePath": "sprites\/spr_caterpillar_body\/spr_caterpillar_body.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -138,7 +138,7 @@
             "Key": "500234f3-3862-4d44-8cd7-fb18e6e43ea1",
             "Value": {
                 "id": "6553bca9-cef1-4250-9d21-f974721ab4db",
-                "resourcePath": "sprites\/flower\/flower.yy",
+                "resourcePath": "sprites\/spr_flower\/spr_flower.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -146,7 +146,7 @@
             "Key": "54511bd5-19a2-4522-806b-2e7667bbe6d3",
             "Value": {
                 "id": "827d0615-5816-4a43-b048-5a3b4b1b8287",
-                "resourcePath": "sprites\/grass_background\/grass_background.yy",
+                "resourcePath": "sprites\/spr_grass_background\/spr_grass_background.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -170,7 +170,7 @@
             "Key": "608411f6-3b2b-43e7-b04a-165ef749eb76",
             "Value": {
                 "id": "c5523a80-e465-4b3a-8c2d-d5f88d401668",
-                "resourcePath": "sprites\/flower_shooting\/flower_shooting.yy",
+                "resourcePath": "sprites\/spr_flower_shooting\/spr_flower_shooting.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -178,7 +178,7 @@
             "Key": "63535f28-51ce-480c-a3e0-800e73faaab3",
             "Value": {
                 "id": "452d9e59-0c7e-4b0e-a54b-0397b23c0184",
-                "resourcePath": "sprites\/flower_idle\/flower_idle.yy",
+                "resourcePath": "sprites\/spr_flower_idle\/spr_flower_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -196,6 +196,14 @@
                 "id": "56cd7b79-efa0-448d-ba3f-57211400ca8b",
                 "resourcePath": "views\/6cd9410f-ce49-459b-a376-250642698f7e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "712a1e60-5359-4f8c-9cc8-865be3410a09",
+            "Value": {
+                "id": "120725b8-8c13-496d-bd0a-43506471da09",
+                "resourcePath": "sprites\/spr_flower_dying\/spr_flower_dying.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -218,7 +226,7 @@
             "Key": "7c00641a-8419-4cc2-bf8c-517b4c9a8b03",
             "Value": {
                 "id": "f8634d1f-c2d8-49b0-8488-ffe0db80e9d0",
-                "resourcePath": "sprites\/honey_bullet\/honey_bullet.yy",
+                "resourcePath": "sprites\/spr_honey\/spr_honey.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -266,7 +274,7 @@
             "Key": "9c4cbade-8aa9-448f-bb21-577d1412a050",
             "Value": {
                 "id": "5d8fb013-a713-4b47-8d15-1003afb50116",
-                "resourcePath": "sprites\/caterpillar_head\/caterpillar_head.yy",
+                "resourcePath": "sprites\/spr_caterpillar_head\/spr_caterpillar_head.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -306,7 +314,7 @@
             "Key": "c2cafa1c-b5fd-40fe-9779-2819444f1332",
             "Value": {
                 "id": "abd69f1b-e69e-48b0-bfd5-75ab13a67c4e",
-                "resourcePath": "sprites\/lotus\/lotus.yy",
+                "resourcePath": "sprites\/spr_lotus\/spr_lotus.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -314,7 +322,7 @@
             "Key": "c35c9044-c988-4c41-adcc-1c713cd63e25",
             "Value": {
                 "id": "96880d39-0ed7-4e45-bcfd-04619cd10426",
-                "resourcePath": "objects\/obj_flower_idle\/obj_flower_idle.yy",
+                "resourcePath": "objects\/obj_flower\/obj_flower.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -370,7 +378,7 @@
             "Key": "fc7ce16b-639c-4062-bbe3-527b1db9a2ef",
             "Value": {
                 "id": "d8a878c3-a871-4ee0-9576-1a60eecde8f5",
-                "resourcePath": "objects\\obj_honey\\obj_honey.yy",
+                "resourcePath": "objects\/obj_honey\/obj_honey.yy",
                 "resourceType": "GMObject"
             }
         }
