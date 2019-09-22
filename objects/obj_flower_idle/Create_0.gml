@@ -2,8 +2,6 @@
 // You can write your code in this editor
 image_speed = 0.5;
 move_speed = 300;
-speed_x = 0;
-speed_y = 0;
 
 movement_inputs[0] = vk_right;
 movement_inputs[1] = vk_up;
