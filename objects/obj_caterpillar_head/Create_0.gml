@@ -10,6 +10,3 @@ reached_bottom = false;
 hspeed = move_speed * move_xdir;
 
 facing = move_xdir > 0 ? "R" : "L";
-
-last_angle = image_angle;
-last_scale = image_xscale;
