@@ -346,7 +346,7 @@
             "Key": "d2910428-5fce-4323-870c-adcfc8677fed",
             "Value": {
                 "id": "3ef1fa84-80f9-4b3e-9e7c-f7d922d1c38e",
-                "resourcePath": "sounds\/snd_shoot_honey\/snd_shoot_honey.yy",
+                "resourcePath": "sounds\\snd_splat\\snd_splat.yy",
                 "resourceType": "GMSound"
             }
         },

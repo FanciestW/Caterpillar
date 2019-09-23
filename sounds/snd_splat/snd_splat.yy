@@ -2,7 +2,7 @@
     "id": "d2910428-5fce-4323-870c-adcfc8677fed",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_shoot_honey",
+    "name": "snd_splat",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
