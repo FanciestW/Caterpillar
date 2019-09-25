@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// Check if isHead and become head
+if (isHead) {
+	// Make into a head and do appropriate stuff.
+	instance_change(obj_caterpillar_head, true);
+}
+
 image_xscale = -1 * move_xdir;
 
 // Move in the direction and update facing;

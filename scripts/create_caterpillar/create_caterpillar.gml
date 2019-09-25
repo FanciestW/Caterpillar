@@ -32,3 +32,6 @@ for (var i = 1; i < length; i+=1) {
 	caterpillar[i].move_speed = caterpillar[0].move_speed;
 	caterpillar[i].hspeed = caterpillar[i].move_speed * caterpillar[i].move_xdir;
 }
+for (var i = 0; i < length - 1; i += 1) {
+	caterpillar[i].followed_by = caterpillar[i+1];	
+}

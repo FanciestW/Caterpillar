@@ -4,6 +4,7 @@ default_image_speed = 0.6;
 image_speed = default_image_speed;
 isHead = false;
 following = undefined;
+followed_by = undefined;
 body_num = undefined;
 my_head = undefined;
 reached_bottom = false;
