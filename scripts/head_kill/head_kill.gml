@@ -1,5 +1,6 @@
 /*
- * head_kill(head_id, body_id)
+ * @function head_kill(head_id, body_id)
+ * @description Kill a head and upgrade it's following body.
  * @param head_id: The id of the head instance to destroy.
  * @param body_id: The id of the body instance to upgrade to a head object.
  */

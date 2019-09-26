@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "3463d577-fe49-4504-b698-9f67d1a6eeec",
+            "Value": {
+                "id": "b0821b67-7bb1-4cdb-9a77-2fa3e45c8bfd",
+                "resourcePath": "scripts\/body_kill\/body_kill.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3e16b16e-3d23-4077-af91-4042b7ba73a1",
             "Value": {
                 "id": "ed5acd1b-0537-4a8e-b2b5-e16b1e973144",
@@ -266,7 +274,7 @@
             "Key": "933c2449-db23-4049-9d00-614cdd407f16",
             "Value": {
                 "id": "2d85a086-f7c3-4fab-9d61-83861c435359",
-                "resourcePath": "scripts\\head_kill\\head_kill.yy",
+                "resourcePath": "scripts\/head_kill\/head_kill.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -354,7 +362,7 @@
             "Key": "d2910428-5fce-4323-870c-adcfc8677fed",
             "Value": {
                 "id": "3ef1fa84-80f9-4b3e-9e7c-f7d922d1c38e",
-                "resourcePath": "sounds\\snd_splat\\snd_splat.yy",
+                "resourcePath": "sounds\/snd_splat\/snd_splat.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -410,7 +418,8 @@
     "script_order": [
         "9f2a2572-36bc-49ea-881d-2cef5aa360cc",
         "3e16b16e-3d23-4077-af91-4042b7ba73a1",
-        "933c2449-db23-4049-9d00-614cdd407f16"
+        "933c2449-db23-4049-9d00-614cdd407f16",
+        "3463d577-fe49-4504-b698-9f67d1a6eeec"
     ],
     "tutorial": ""
 }
