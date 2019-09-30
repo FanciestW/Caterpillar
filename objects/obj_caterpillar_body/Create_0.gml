@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+global.num_of_bodies += 1;
 default_image_speed = 0.6;
 image_speed = default_image_speed;
 isHead = false;

@@ -13,6 +13,11 @@ var followed_body = argument2;
 instance_create_layer(killed_body.x-16, killed_body.y-16, layer_get_id("game_layer"), obj_lotus)
 instance_destroy(killed_body, true)
 
+// Set followed_by for the killed body's following body OR head to noone.
+if (instance_exists(followed_body)) {
+	followed_body.followed_by = noone;	
+}
+
 // Upgrade following to head
 if (instance_exists(following_body)) {
 	// create new head
@@ -30,4 +35,5 @@ if (instance_exists(following_body)) {
 		follower = follower.followed_by;
 		follower.my_head = new_head;
 	}
+	instance_destroy(following_body);
 }
