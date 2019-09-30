@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "c9ee2697-784d-48f1-a65c-3b3710206689",
+            "Value": {
+                "id": "88c5c525-a6ef-4cfa-a515-d1455a7c076e",
+                "resourcePath": "scripts\\generate_lotuses\\generate_lotuses.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "233abe17-dd0b-4a26-ab4e-68da12a05447",
@@ -419,7 +427,8 @@
         "9f2a2572-36bc-49ea-881d-2cef5aa360cc",
         "3e16b16e-3d23-4077-af91-4042b7ba73a1",
         "933c2449-db23-4049-9d00-614cdd407f16",
-        "3463d577-fe49-4504-b698-9f67d1a6eeec"
+        "3463d577-fe49-4504-b698-9f67d1a6eeec",
+        "c9ee2697-784d-48f1-a65c-3b3710206689"
     ],
     "tutorial": ""
 }

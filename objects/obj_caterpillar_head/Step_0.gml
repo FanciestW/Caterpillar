@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+hspeed = move_speed * move_xdir;
 // Move in the direction and update facing;
 if (move_xdir > 0) {
 	facing = "R";

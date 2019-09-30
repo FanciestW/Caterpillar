@@ -8,7 +8,8 @@
 var head = argument0;
 var body = argument1;
 
-instance_destroy(head);
 var new_head = instance_create_layer(body.x, body.y, layer_get_id("game_layer"), obj_caterpillar_head);
+new_head.move_xdir = body.move_xdir;
 new_head.followed_by = body.followed_by;
+instance_destroy(head);
 instance_destroy(body);

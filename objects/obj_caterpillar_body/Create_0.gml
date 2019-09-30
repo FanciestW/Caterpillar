@@ -3,15 +3,15 @@
 default_image_speed = 0.6;
 image_speed = default_image_speed;
 isHead = false;
-following = undefined;
-followed_by = undefined;
+following = noone;
+followed_by = noone;
 body_num = undefined;
-my_head = undefined;
+my_head = noone;
 reached_bottom = false;
 
-move_speed = my_head == undefined ? 3 : my_head.move_speed;
-move_xdir = my_head == undefined ? -1 : my_head.move_xdir;
-move_ydir = my_head == undefined ? 1 : my_head.move_ydir;
+move_speed = instance_exists(my_head) ? my_head.move_speed : 3;
+move_xdir = instance_exists(my_head) ? my_head.move_xdir : -1;
+move_ydir = instance_exists(my_head) ? my_head.move_ydir : 1;
 
 
 facing = "L";
