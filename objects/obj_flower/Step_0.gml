@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// Check win condition
+if (global.num_of_bodies <= 0 and global.num_of_heads <= 0) {
+	// TODO::Create a win condition/room
+	show_debug_message("WINNING");
+}
+
 switch(state) {
 	case 0:  // Idle
 		sprite_index = spr_flower_idle;
