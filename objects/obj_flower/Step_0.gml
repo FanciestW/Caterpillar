@@ -4,7 +4,11 @@
 // Check win condition
 if (global.num_of_bodies <= 0 and global.num_of_heads <= 0) {
 	// TODO::Create a win condition/room
-	show_debug_message("WINNING");
+	room_goto(win_room);
+}
+
+if (position_meeting(x, y, obj_caterpillar_body) || position_meeting(x, y, obj_caterpillar_head)) {
+	state = 2;	
 }
 
 switch(state) {

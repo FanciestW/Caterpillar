@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0f366db0-9193-4668-8f55-c490c1455f74",
+            "Value": {
+                "id": "2791ad99-74b2-4b5f-ac4e-29dc46114d37",
+                "resourcePath": "rooms\/win_room\/win_room.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "16793997-ec0b-4daf-9f4d-cea24d56129b",
             "Value": {
                 "id": "85bc770f-738d-477c-bad7-8be1479f2bc3",
@@ -354,7 +362,7 @@
             "Key": "c9ee2697-784d-48f1-a65c-3b3710206689",
             "Value": {
                 "id": "88c5c525-a6ef-4cfa-a515-d1455a7c076e",
-                "resourcePath": "scripts\\generate_lotuses\\generate_lotuses.yy",
+                "resourcePath": "scripts\/generate_lotuses\/generate_lotuses.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -404,6 +412,14 @@
                 "id": "03231c71-6019-46ce-aba3-918b8fc6e791",
                 "resourcePath": "views\/ebc566bc-7913-42a8-acca-c563a20287dc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ed005eab-948f-4492-9e65-9382c9dbb5ad",
+            "Value": {
+                "id": "95d33b33-b43e-4f1e-b048-44df28ca82b8",
+                "resourcePath": "objects\/obj_win_text\/obj_win_text.yy",
+                "resourceType": "GMObject"
             }
         },
         {
