@@ -1,7 +1,7 @@
 {
     "id": "4fa80e2d-5b92-4747-a6e0-fb676b16707c",
     "modelName": "GMExtension",
-    "mvc": "1.0",
+    "mvc": "1.2",
     "name": "min_font",
     "IncludedResources": [
         "Included Files\\min.ttf",
@@ -24,6 +24,7 @@
     "copyToTargets": -1,
     "date": "2019-42-15 04:09:52",
     "description": "",
+    "exportToGame": true,
     "extensionName": "",
     "files": [
         
@@ -44,9 +45,12 @@
     "maccompilerflags": "",
     "maclinkerflags": "",
     "macsourcedir": "",
+    "options": null,
+    "optionsFile": "options.json",
     "packageID": "com.csanyk.minfont",
     "productID": "",
     "sourcedir": "",
+    "supportedTargets": -1,
     "tvosProps": false,
     "tvosSystemFrameworkEntries": [
         
