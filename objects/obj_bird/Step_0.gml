@@ -31,6 +31,6 @@ if (y <= 752) {
 	move_ydir = 1;
 }
 
-show_debug_message(string(x) + ", " + string(y));
+// show_debug_message(string(x) + ", " + string(y));
 
 	
