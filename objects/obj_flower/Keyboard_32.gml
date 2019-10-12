@@ -1,7 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (ammo_left > 0 && state != 2) {
-	sprite_index = 1;
+	sprite_index = spr_flower_shooting;
+	image_speed = 2;
+	image_xscale = 1;
+	image_yscale = 1;
 	bullet = instance_create_layer(x + 15, y + 10, layer_get_id("game_layer"), obj_honey);
 	bullet.created_by = self;
 	ammo_left -= 1;
@@ -17,5 +20,8 @@ else if (state == 2) {
 	}
 }
 else {
-	sprite_index = 0;	
+	sprite_index = spr_flower_idle;
+	image_speed = 2;
+	image_xscale = 1;
+	image_yscale = 1;
 }
