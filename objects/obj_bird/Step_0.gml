@@ -2,7 +2,7 @@
 // You can write your code in this editor
 on_screen = x > -32 && x < room_width + 32 && y < room_height + 16 && y > -16 ? true : false;
 
-if (moving) {
+if (moving && !moving_down) {
 	x += move_speed * move_xdir;
 }
 if (moving && moving_diag) {
@@ -10,6 +10,7 @@ if (moving && moving_diag) {
 }
 
 if (!on_screen) {
+	y = 752;
 	moving = false;
 	alarm[0] = random(10) * room_speed;	// Set random times of entry.
 }
@@ -23,11 +24,13 @@ if (!on_screen && x > room_width) {
 	move_xdir = -1;
 }
 
-if (y >= room_height - 16) {
+if (y >= room_height - 15) {
 	move_ydir = -1;	
 }
-if (y < 768) {
+if (y <= 752) {
 	move_ydir = 1;
 }
+
+show_debug_message(string(x) + ", " + string(y));
 
 	
