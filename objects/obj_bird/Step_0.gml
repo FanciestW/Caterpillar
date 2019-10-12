@@ -5,11 +5,8 @@ on_screen = x > -32 && x < room_width + 32 && y < room_height + 16 && y > -16 ? 
 if (moving) {
 	x += move_speed * move_xdir;
 }
-if (moving_diag) {
+if (moving && moving_diag) {
 	y += move_speed * move_ydir;	
-}
-if (moving && !moving_diag) {
-	moving_diag = random(diag_chance) == diag_chance / 2;
 }
 
 if (!on_screen) {
@@ -26,10 +23,10 @@ if (!on_screen && x > room_width) {
 	move_xdir = -1;
 }
 
-if (y < 16) {
+if (y >= room_height - 16) {
 	move_ydir = -1;	
 }
-if (y > 256) {
+if (y < 768) {
 	move_ydir = 1;
 }
 
