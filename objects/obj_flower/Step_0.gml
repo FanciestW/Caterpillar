@@ -1,13 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-sprite_index = spr_flower_idle;
-image_speed = 1;
-image_xscale = 1;
-image_yscale = 1;
 
 // Check win condition
 if (global.num_of_bodies <= 0 and global.num_of_heads <= 0) {
-	// TODO::Create a win condition/room
 	room_goto(win_room);
 }
 
@@ -24,11 +19,11 @@ switch(state) {
 		break;
 	case 2:  // Dying
 		sprite_index = spr_flower_dying;
-		image_speed = 2;
+		image_speed = 1;
 		image_xscale = 1;
 		image_yscale = 1;
 		if (image_index >= 13) {
-			instance_destroy();
+			instance_destroy(self, true);
 		}
 		break;
 }
