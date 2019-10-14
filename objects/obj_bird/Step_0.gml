@@ -12,7 +12,7 @@ if (moving && moving_diag) {
 if (!on_screen) {
 	y = 752;
 	moving = false;
-	alarm[0] = random(10) * room_speed;	// Set random times of entry.
+	alarm[0] = irandom_range(5, 20) * room_speed;	// Set random times of entry.
 }
 
 // Off screen to the left.

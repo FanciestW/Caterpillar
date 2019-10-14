@@ -12,5 +12,5 @@ moving_down = false;
 // Set a random side to start on
 x = irandom(1) == 1 ? -32 : 992;
 
-alarm[0] = random(5) * room_speed; // Set random time to begin movement.
+alarm[0] = irandom_range(5, 20) * room_speed; // Set random time to begin movement.
 	
