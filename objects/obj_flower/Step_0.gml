@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 // Check win condition
 if (global.num_of_bodies <= 0 and global.num_of_heads <= 0) {
 	room_goto(win_room);
