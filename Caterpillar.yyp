@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "d84a0c07-8b41-43a4-92e0-91bf334adea7",
+            "Value": {
+                "id": "0608a8dc-39ed-47fd-bd37-f194b0138b91",
+                "resourcePath": "sprites\/poison_lotus\/poison_lotus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d9acbb6c-b951-45ed-97bf-8c0ce15e3b13",
             "Value": {
                 "id": "7f45d178-6b59-4578-8314-629c18485f4d",
