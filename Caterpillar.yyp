@@ -114,7 +114,7 @@
             "Key": "26fa7660-fb96-432c-b742-912846ab5455",
             "Value": {
                 "id": "3799e31d-9b58-432c-a75b-36b4d6de10a9",
-                "resourcePath": "sprites\\spr_bee\\spr_bee.yy",
+                "resourcePath": "sprites\/spr_bee\/spr_bee.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -226,7 +226,7 @@
             "Key": "63b002af-d61b-40b1-b7b3-61d3a529cc9f",
             "Value": {
                 "id": "2bbe0397-ae1e-4340-b958-9ccf3e1fec5a",
-                "resourcePath": "objects\\obj_bee\\obj_bee.yy",
+                "resourcePath": "objects\/obj_bee\/obj_bee.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "db21876b-a4ab-4912-97cb-63a90109c04c",
+            "Value": {
+                "id": "c2926487-a989-4030-b0a7-0de2eb78b42c",
+                "resourcePath": "scripts\/round_down\/round_down.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "db357428-c067-4365-8949-08d2a457f9ab",
             "Value": {
                 "id": "43147443-d7e1-4ef7-af2f-8c95f694f509",
@@ -476,7 +484,8 @@
         "3e16b16e-3d23-4077-af91-4042b7ba73a1",
         "933c2449-db23-4049-9d00-614cdd407f16",
         "3463d577-fe49-4504-b698-9f67d1a6eeec",
-        "c9ee2697-784d-48f1-a65c-3b3710206689"
+        "c9ee2697-784d-48f1-a65c-3b3710206689",
+        "db21876b-a4ab-4912-97cb-63a90109c04c"
     ],
     "tutorial": ""
 }

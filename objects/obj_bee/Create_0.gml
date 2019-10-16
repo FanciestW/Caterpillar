@@ -1,8 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
+active = false;
 moving = false;
-speed = 2;
+hits = 2;
+init_speed = 2;
+curr_speed = init_speed;
 y = -32;
 x = irandom(room_width / 32) * 32;
 lotus_chance = .25;
 show_debug_message(string(x) + ", " + string(y));
+
+alarm[0] = room_speed * 5;
