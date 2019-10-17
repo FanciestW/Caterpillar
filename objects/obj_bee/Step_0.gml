@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+on_screen = x > -32 && x < room_width && y > -32 && y < room_height;
 if (global.num_of_player_lotuses <= 5 && active) {
 	moving = true;
 }

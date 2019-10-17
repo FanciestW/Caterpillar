@@ -5,6 +5,7 @@ moving = false;
 hits = 2;
 init_speed = 2;
 curr_speed = init_speed;
+on_screen = false;
 y = -32;
 x = irandom(room_width / 32) * 32;
 lotus_chance = .25;
