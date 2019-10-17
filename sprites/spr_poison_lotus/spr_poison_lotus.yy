@@ -2,7 +2,7 @@
     "id": "d84a0c07-8b41-43a4-92e0-91bf334adea7",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "poison_lotus",
+    "name": "spr_poison_lotus",
     "For3D": false,
     "HTile": false,
     "VTile": false,

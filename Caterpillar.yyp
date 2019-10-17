@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "431fbff4-8af1-441e-b259-e8b8886bd50f",
+            "Value": {
+                "id": "edc5cbf5-5cae-4691-8864-ef295e497107",
+                "resourcePath": "objects\/obj_poison_lotus\/obj_poison_lotus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "47d5822a-4b9f-419f-9a1f-212e8738deaa",
             "Value": {
                 "id": "454118c6-d8f5-48cf-853d-47d56fc18f4f",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "73795907-1788-469d-8ea5-c1427b0e252d",
+            "Value": {
+                "id": "1addf157-8303-407f-9a2d-f848da389fe4",
+                "resourcePath": "objects\/obj_scorpion\/obj_scorpion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7c00641a-8419-4cc2-bf8c-517b4c9a8b03",
             "Value": {
                 "id": "f8634d1f-c2d8-49b0-8488-ffe0db80e9d0",
@@ -367,6 +383,14 @@
             }
         },
         {
+            "Key": "b059df8a-2db7-4bd3-9eaa-45fad06971f8",
+            "Value": {
+                "id": "dc3c4aaa-b817-47aa-95f1-1de1924972a4",
+                "resourcePath": "sprites\/spr_scorpion\/spr_scorpion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b0dc1693-f979-4f26-8ba0-1566cc1654a2",
             "Value": {
                 "id": "ad892072-ed09-479d-9983-e6ff608cbf96",
@@ -418,7 +442,7 @@
             "Key": "d84a0c07-8b41-43a4-92e0-91bf334adea7",
             "Value": {
                 "id": "0608a8dc-39ed-47fd-bd37-f194b0138b91",
-                "resourcePath": "sprites\/poison_lotus\/poison_lotus.yy",
+                "resourcePath": "sprites\/spr_poison_lotus\/spr_poison_lotus.yy",
                 "resourceType": "GMSprite"
             }
         },
