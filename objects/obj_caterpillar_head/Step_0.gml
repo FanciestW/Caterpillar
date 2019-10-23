@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (poisoned) {
+	show_debug_message("I'am poisoned");	
+}
+
 hspeed = move_speed * move_xdir;
 // Move in the direction and update facing;
 if (move_xdir > 0) {
