@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-if (poisoned) {
-	show_debug_message("I'am poisoned");	
+if(place_empty(x, y, obj_poison_lotus)) {
+	poisoned = true;
 }
 
 hspeed = move_speed * move_xdir;
