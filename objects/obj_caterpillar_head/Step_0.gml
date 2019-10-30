@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(place_empty(x, y, obj_poison_lotus)) {
+in_player_area = y > room_height - (32 * 7);
+
+if(place_meeting(x, y, obj_poison_lotus)) {
 	poisoned = true;
 }
 
@@ -21,22 +23,27 @@ if (y >= room_height - 32) {
 	spawn_head = false;
 }
 
-
-// Move left and right and check if hitting lotuses.
-if (x <= 0) {
-	move_xdir = 1;
-	hspeed = move_xdir * move_speed;
-	x = 1;
-	y += (32 * move_ydir);
-} else if (x >= room_width) {
-	move_xdir = -1;
-	hspeed = move_xdir * move_speed;
-	x = room_width - 1;
-	y += (32 * move_ydir);
-} else if (!place_free(x, y)) {
-	move_xdir *= -1;
-	hspeed = move_xdir * move_speed;
-	y += (32 * move_ydir);
+if (poisoned && !in_player_area) {
+	vspeed = move_xdir * move_speed;
+}
+else {
+	vspeed = 0;
+	// Move left and right and check if hitting lotuses.
+	if (x <= 0) {
+		move_xdir = 1;
+		hspeed = move_xdir * move_speed;
+		x = 1;
+		y += (32 * move_ydir);
+	} else if (x >= room_width) {
+		move_xdir = -1;
+		hspeed = move_xdir * move_speed;
+		x = room_width - 1;
+		y += (32 * move_ydir);
+	} else if (!place_free(x, y)) {
+		move_xdir *= -1;
+		hspeed = move_xdir * move_speed;
+		y += (32 * move_ydir);
+	}
 }
 
 // Handling what way the to face

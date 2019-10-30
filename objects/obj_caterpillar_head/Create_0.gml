@@ -11,6 +11,7 @@ move_ydir = 1;	// 1 going down, -1 going up.
 reached_bottom = false;
 spawn_head = false;
 poisoned = false;
+in_player_area = false;
 
 facing = move_xdir > 0 ? "R" : "L";
 
