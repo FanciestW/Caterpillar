@@ -24,10 +24,25 @@ if (y >= room_height - 32) {
 }
 
 if (poisoned && !in_player_area) {
-	vspeed = move_xdir * move_speed;
+	if (alarm[0] <= -1) {
+		alarm[0] = room_speed / poisoned_speed;
+	}
+	
+	if (moving_down) {
+		vspeed = poisoned_speed;	
+	} else {
+		vspeed = 0;
+	}
+	
+	if (vspeed <= 0) {
+		hspeed = move_xdir * poisoned_speed;	
+	} else {
+		hspeed = 0;
+	}
 }
 else {
 	vspeed = 0;
+	hspeed = move_xdir * move_speed;
 	// Move left and right and check if hitting lotuses.
 	if (x <= 0) {
 		move_xdir = 1;

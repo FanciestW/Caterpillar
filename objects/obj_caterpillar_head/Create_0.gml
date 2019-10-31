@@ -6,12 +6,14 @@ image_speed = 0.3;
 isHead = true;
 followed_by = noone;
 move_speed = 5;
+poisoned_speed = 10;
 move_xdir = irandom(1) == 0 ? -1 : 1; // Random move direction to start with.
 move_ydir = 1;	// 1 going down, -1 going up.
 reached_bottom = false;
 spawn_head = false;
 poisoned = false;
 in_player_area = false;
+moving_down = false;
 
 facing = move_xdir > 0 ? "R" : "L";
 
