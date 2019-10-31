@@ -5,8 +5,8 @@ randomize();
 image_speed = 0.3;
 isHead = true;
 followed_by = noone;
-move_speed = 5;
-poisoned_speed = 10;
+move_speed = global.move_speed;
+poisoned_speed = global.poisoned_move_speed;
 move_xdir = irandom(1) == 0 ? -1 : 1; // Random move direction to start with.
 move_ydir = 1;	// 1 going down, -1 going up.
 reached_bottom = false;

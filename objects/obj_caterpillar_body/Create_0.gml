@@ -9,8 +9,12 @@ followed_by = noone;
 body_num = undefined;
 my_head = noone;
 reached_bottom = false;
+poisoned = false;
+in_player_area = false;
+moving_down = false;
 
-move_speed = instance_exists(my_head) ? my_head.move_speed : 3;
+move_speed = global.move_speed;
+poisoned_speed = global.poisoned_move_speed;
 move_xdir = instance_exists(my_head) ? my_head.move_xdir : -1;
 move_ydir = instance_exists(my_head) ? my_head.move_ydir : 1;
 

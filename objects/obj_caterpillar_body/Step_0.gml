@@ -1,5 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+in_player_area = y > room_height - (32 * 7);
+
+if(place_meeting(x, y, obj_poison_lotus)) {
+	poisoned = true;
+}
 
 // Check if isHead and become head
 if (isHead) {
@@ -24,21 +29,43 @@ if (y >= room_height - 32) {
 	move_ydir = 1;
 }
 
-// Move left and right and check if hitting lotuses.
-if (x <= 0) {
-	move_xdir *= -1;
+if (poisoned && !in_player_area) {
+	if (alarm[0] <= -1) {
+		alarm[0] = room_speed / poisoned_speed;
+	}
+	
+	if (moving_down) {
+		vspeed = poisoned_speed;	
+	} else {
+		vspeed = 0;
+	}
+	
+	if (vspeed <= 0) {
+		hspeed = move_xdir * poisoned_speed;	
+	} else {
+		hspeed = 0;
+	}
+}
+else {
+	vspeed = 0;
 	hspeed = move_xdir * move_speed;
-	x = 1;
-	y += (32 * move_ydir);
-} else if (x >= room_width) {
-	move_xdir *= -1;
-	hspeed = move_xdir * move_speed;
-	x = room_width - 1;
-	y += (32 * move_ydir);
-} else if (!place_free(x, y)) {
-	move_xdir *= -1;
-	hspeed = move_xdir * move_speed;
-	y += (32 * move_ydir);
+
+	// Move left and right and check if hitting lotuses.
+	if (x <= 0) {
+		move_xdir *= -1;
+		hspeed = move_xdir * move_speed;
+		x = 1;
+		y += (32 * move_ydir);
+	} else if (x >= room_width) {
+		move_xdir *= -1;
+		hspeed = move_xdir * move_speed;
+		x = room_width - 1;
+		y += (32 * move_ydir);
+	} else if (!place_free(x, y)) {
+		move_xdir *= -1;
+		hspeed = move_xdir * move_speed;
+		y += (32 * move_ydir);
+	}
 }
 
 // Handling what way the to face
