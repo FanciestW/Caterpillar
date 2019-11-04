@@ -3,7 +3,7 @@
 in_player_area = y > room_height - (32 * 7);
 
 if(place_meeting(x, y, obj_poison_lotus)) {
-	poisoned = true;
+	if (instance_exists(following) && following.poisoned) poisoned = true;
 }
 
 // Check if isHead and become head

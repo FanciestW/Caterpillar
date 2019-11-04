@@ -7,7 +7,7 @@ if (moving) {
 	if (irandom(1/lotus_chance) == 0) {
 		var place_x = round_down(x, 32);
 		var place_y = round_down(y, 32);
-		if (!place_meeting(place_x, place_y, obj_lotus) && !place_meeting(place_x, place_y - 32, obj_lotus)) {
+		if (!place_meeting(place_x, place_y, obj_lotus) && !place_meeting(place_x, place_y - 32, obj_lotus) && place_y > 32 && place_y < room_height - 32) {
 			instance_create_layer(place_x, place_y, layer_get_id("game_layer"), obj_lotus);	
 		}
 	}
