@@ -10,6 +10,8 @@ if (menu_enter) {
 	switch(menu_index) {
 		// Play
 		case 0:
+			lives = 2;
+			score = 0;
 			room_goto(game_room);
 			break;
 		// Exit
