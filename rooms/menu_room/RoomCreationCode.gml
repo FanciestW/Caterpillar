@@ -4,6 +4,8 @@ global.num_of_player_lotuses = 0;
 global.player_y_border = room_height - (32 * 6);
 global.move_speed = 2;
 global.poisoned_move_speed = 5;
+global.max_move_speed = 10;
+global.max_poisoned_move_speed = 12;
 global.level = 0;
 lives = 2;
 
