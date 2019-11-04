@@ -17,6 +17,7 @@ if (y > room_height) {
 	instance_create_layer(0, -32, layer_get_id("game_layer"), obj_bee);	
 }
 if (hits <= 0) {
+	score += 200;
 	instance_destroy(self);
 } else if (hits <= 1) {
 	curr_speed = init_speed * 2;
