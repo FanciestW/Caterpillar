@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 if (score_live >= extra_life_score) {
 	score_live = 0;
 	lives += 1;
