@@ -5,6 +5,10 @@ var head = instance_create_layer(pos_x, pos_y, layer_get_id("game_layer"), obj_c
 
 caterpillar[0] = head;
 head_dir = head.facing;
+
+// Create lotus right in front of head
+instance_create_layer(pos_x + 48 * head.move_xdir, pos_y - 15, layer_get_id("game_layer"), obj_lotus);
+
 for (var i = 1; i < length; i+=1) {
 	switch (head_dir) {
 		case "L":

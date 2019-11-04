@@ -10,4 +10,4 @@ num_of_lotuses = 30 * 23 * lotus_percentage;
 
 generate_lotuses();
 
-create_caterpillar(12, 496, 16);
+create_caterpillar(12, 463, -16);
