@@ -1,3 +1,5 @@
+move_speed = global.move_speed * 100;
+
 if (position_meeting(x, y, obj_caterpillar_body) || position_meeting(x, y, obj_caterpillar_head)) {
 	state = 2;	
 }
