@@ -8,16 +8,25 @@ if (menu_index < 0) menu_index = buttons - 1;
 if (menu_index > buttons - 1) menu_index = 0;
 if (menu_enter) {
 	switch(menu_index) {
-		// Play
+		// Easy
 		case 0:
-			lives = 2;
-			score = 0;
-			instance_create_layer(x, y, layer_get_id("menu_layer"), obj_menu_difficulty);
-			instance_destroy(self);
+			room_goto(game_room);
 			break;
-		// Exit
+		// Normal
 		case 1:
-			game_end();
+			global.move_speed = 3;
+			global.max_move_speed = 12;
+			global.poisoned_move_speed = 4;
+			global.max_poisoned_move_speed = 14;
+			room_goto(game_room);
+			break;
+		// Hard
+		case 2:
+			global.move_speed = 4;
+			global.max_move_speed = 15;
+			global.poisoned_move_speed = 6;
+			global.max_poisoned_move_speed = 18;
+			room_goto(game_room);
 			break;
 	}
 }

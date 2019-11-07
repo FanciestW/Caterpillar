@@ -330,7 +330,7 @@
             "Key": "92c0b241-e33e-42e6-baac-c04a92af8d5f",
             "Value": {
                 "id": "6bbeb2d4-4dd6-4836-ad61-e726606add22",
-                "resourcePath": "rooms\\game_over_room\\game_over_room.yy",
+                "resourcePath": "rooms\/game_over_room\/game_over_room.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -388,6 +388,14 @@
                 "id": "e3afd21b-aab2-4606-9fd8-23ae002dc9b7",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aff41fa1-902f-4342-ba26-738dc3569429",
+            "Value": {
+                "id": "22988b4e-635e-4f98-98aa-27af79a5e382",
+                "resourcePath": "objects\/obj_game_over_menu\/obj_game_over_menu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -503,19 +511,19 @@
             }
         },
         {
-            "Key": "ed005eab-948f-4492-9e65-9382c9dbb5ad",
-            "Value": {
-                "id": "95d33b33-b43e-4f1e-b048-44df28ca82b8",
-                "resourcePath": "objects\/obj_win_text\/obj_win_text.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "c4bc8b1a-ab42-486a-bf00-0de5fa9f2194",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f8d442ce-991f-4553-bdf5-3ceafd04d4b5",
+            "Value": {
+                "id": "9b7cb7bd-b0d1-4bf5-83dd-d487ba00caa4",
+                "resourcePath": "objects\/obj_menu_difficulty\/obj_menu_difficulty.yy",
+                "resourceType": "GMObject"
             }
         },
         {

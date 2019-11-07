@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_rectangle_color(pos_x-10, pos_y, pos_x + 150, pos_y + buttons * line_h, c_gray, c_gray, c_gray, c_gray, false);
+draw_rectangle_color(pos_x-10, pos_y, pos_x + 200, pos_y + buttons * line_h, c_gray, c_gray, c_gray, c_gray, false);
 
 // Draw score if game over.
 if (room_get_name(room) == "game_over_room") {
