@@ -6,7 +6,7 @@ line_h = 64;
 
 // Options
 button[0] = "Play Again";
-button[1] = "Exit";
+button[1] = "Quit Game";
 buttons = array_length_1d(button);
 
 menu_index = 0;

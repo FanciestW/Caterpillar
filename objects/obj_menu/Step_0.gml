@@ -15,8 +15,11 @@ if (menu_enter) {
 			instance_create_layer(x, y, layer_get_id("menu_layer"), obj_menu_difficulty);
 			instance_destroy(self);
 			break;
-		// Exit
 		case 1:
+			room_goto(instructions_room);
+			break;
+		// Exit
+		case 2:
 			game_end();
 			break;
 	}
