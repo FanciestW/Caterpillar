@@ -8,27 +8,28 @@ if (menu_index < 0) menu_index = buttons - 1;
 if (menu_index > buttons - 1) menu_index = 0;
 if (menu_enter) {
 	switch(menu_index) {
-		// Easy
-		case 0:
-			room_goto(game_room);
+		case 0: // Easy
+			global.move_speed = 2;
+			global.max_move_speed = 10;
+			global.poisoned_move_speed = 3;
+			global.max_poisoned_move_speed = 12;
 			break;
-		// Normal
-		case 1:
+			
+		case 1: // Normal
 			global.move_speed = 3;
 			global.max_move_speed = 12;
 			global.poisoned_move_speed = 4;
 			global.max_poisoned_move_speed = 14;
-			room_goto(game_room);
 			break;
-		// Hard
-		case 2:
+			
+		case 2: // Hard
 			global.move_speed = 4;
 			global.max_move_speed = 15;
 			global.poisoned_move_speed = 6;
 			global.max_poisoned_move_speed = 18;
-			room_goto(game_room);
 			break;
 	}
+	room_goto(game_room);
 }
 
 last_selected = menu_index;

@@ -8,21 +8,18 @@ if (menu_index < 0) menu_index = buttons - 1;
 if (menu_index > buttons - 1) menu_index = 0;
 if (menu_enter) {
 	switch(menu_index) {
-		// Play
+		
 		case 0:
-			lives = 2;
-			score = 0;
-			instance_create_layer(x, y, layer_get_id("menu_layer"), obj_menu_player_selection);
-			instance_destroy(self);
+			global.num_of_players = 1;
 			break;
-		case 1:
-			room_goto(instructions_room);
-			break;
-		// Exit
-		case 2:
-			game_end();
+			
+		case 1: // Two Players
+			lives = 5;
+			global.num_of_players = 2;
 			break;
 	}
+	instance_create_layer(x, y, layer_get_name("menu_layer"), obj_menu_difficulty);
+	instance_destroy(self);
 }
 
 last_selected = menu_index;
