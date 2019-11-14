@@ -8,6 +8,8 @@ on_screen = x > -32 && x < room_width + 32 && y < room_height + 16 && y > -16 ? 
 moving = false;
 moving_diag = true;
 moving_down = false;
+diving_down = false;
+diving_up = false;
 
 // Set a random side to start on
 x = irandom(1) == 1 ? -32 : 992;
