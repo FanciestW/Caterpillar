@@ -10,6 +10,7 @@ if (active) {
 		audio_play_sound(snd_shoot, 100, false);
 	} 
 	else if (state == 2) {
+		
 		sprite_index = spr_flower_dying;
 		image_speed = 2;
 		image_xscale = 1;

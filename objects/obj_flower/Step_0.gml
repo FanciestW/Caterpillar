@@ -13,6 +13,7 @@ if (active) {
 			sprite_index = spr_flower_shooting;
 			break;
 		case 2:  // Dying
+			move_speed = 0;
 			sprite_index = spr_flower_dying;
 			image_speed = 1;
 			image_xscale = 1;
