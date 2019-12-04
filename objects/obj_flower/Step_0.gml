@@ -42,11 +42,19 @@ if (active) {
 	    }
 	}
 	if (gamepad_is_connected(0)) {
-		show_debug_message(string(gamepad_button_check_pressed(0, gp_face1)));
+		if (gamepad_button_check(0, gp_face1) && ammo_left > 0 && state != 2) {
+			sprite_index = spr_flower_shooting;
+			image_speed = 2;
+			image_xscale = 1;
+			image_yscale = 1;
+			bullet = instance_create_layer(x + 15, y + 10, layer_get_id("game_layer"), obj_honey);
+			bullet.created_by = self;
+			ammo_left -= 1;
+			audio_play_sound(snd_shoot, 100, false);
+		}
 		for ( var i = 0; i < array_length_1d(gamepad_inputs); i++){
 		    var this_key = gamepad_inputs[i];
 		    if gamepad_button_check(0, this_key) {
-				show_debug_message("Pressing GP");
 		        var this_angle = i * 90;
 		        move_xinput += lengthdir_x(1, this_angle);
 		        move_yinput += lengthdir_y(1, this_angle);
