@@ -10,3 +10,8 @@ movement_inputs[0] = vk_right;
 movement_inputs[1] = vk_up;
 movement_inputs[2] = vk_left;
 movement_inputs[3] = vk_down;
+
+gamepad_inputs[0] = gp_padr;
+gamepad_inputs[1] = gp_padu;
+gamepad_inputs[2] = gp_padl;
+gamepad_inputs[3] = gp_padd;

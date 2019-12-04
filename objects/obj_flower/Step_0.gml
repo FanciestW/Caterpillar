@@ -41,6 +41,18 @@ if (active) {
 	        move_yinput += lengthdir_y(1, this_angle);
 	    }
 	}
+	if (gamepad_is_connected(0)) {
+		show_debug_message(string(gamepad_button_check_pressed(0, gp_face1)));
+		for ( var i = 0; i < array_length_1d(gamepad_inputs); i++){
+		    var this_key = gamepad_inputs[i];
+		    if gamepad_button_check(0, this_key) {
+				show_debug_message("Pressing GP");
+		        var this_angle = i * 90;
+		        move_xinput += lengthdir_x(1, this_angle);
+		        move_yinput += lengthdir_y(1, this_angle);
+		    }
+		}
+	}
  
 	var moving = ( point_distance(0,0,move_xinput,move_yinput) > 0 );
 	if moving  {
